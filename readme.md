@@ -7,4 +7,24 @@ We were given a task to create a database capable of storing all relevant data f
 
 ### ERD
 
-!()['/Users/investmentguy/Documents/coding_temple/bonfire_124_sql_day_1/bonfire_124_sql_day_1/Amazon MOCK ERD.png']
+![](https://github.com/TechNTalk/bonfire_124_sql_day_1/blob/main/Amazon%20MOCK%20ERD.png)
+
+
+## Folder Structure:
+
+- .gitignore
+    - Tell git to ignore our .env file
+- .env file
+    - Not be upoaded to GitHub. This will house all our local connection variables
+
+- create.sql
+    - Table creation for us
+
+- insert.sql
+    - Insertion of data
+
+- query.sql
+    - All our sql queries
+
+- demo.py
+    - House a class that will run all of these for us at once.
